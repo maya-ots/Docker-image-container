@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Own Cake</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>🎂 Build Your Own Cake!</h1>
+    <div class="controls">
+        <button onclick="addLayer('chocolate')">🍫 Chocolate Layer</button>
+        <button onclick="addLayer('vanilla')">🍦 Vanilla Layer</button>
+        <button onclick="addLayer('strawberry')">🍓 Strawberry Layer</button>
+        <button onclick="addLayer('frosting')">🧁  Frosting Layer</button>
+        <button onclick="addLayer('candle')">🕯️ Candle Layer</button>
+        <button onclick="resetCake()">❌ Reset Cake</button>
+         <button onclick="stopSong()">⏹️ Stop Song</button>
+    </div>
+
+    <div id="cake"></div>
+
+<audio id="birthdaySong" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
